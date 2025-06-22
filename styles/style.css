@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #1e172f;
+  
+}
+
+.img1 {
+  margin-left: 170px;
+  margin-right: 300px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+  gap: 28px;
+}
+
+nav a {
+  color: #8f8790;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav button {
+
+  width: 125px;
+  height: 48px;
+  border-radius: 3px;
+  border-style: none;
+  font-size: 17px;
+  color: white;
+  background: linear-gradient(to right, #7f00ff, #0086b3);
+}
+
+.sec1 {
+  background-image: url('../assets/hojasFondo.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+
+}
+
+.seccioncita1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2e2550;
+  height: 100%;
+  width: 650px;
+  padding-left: 170px;
+
+}
+
+.seccioncita1 h1 {
+  color: white;
+  font-size: 75px;
+  line-height: 70px;
+  margin-bottom: 60px;
+  margin-top: 80px;
+
+}
+
+.seccioncita1 p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.img2 {
+
+  display: flex;
+  height: 450px;
+  margin-top: 130px;
+  width: 80px;
+  margin-left: 140px;
+
+}
+
+.butons {
+  display: flex;
+  gap: 10px;
+  /*espacio entre ellos*/
+  padding: 6px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px; 
+  color:#6e6c6e;
+  width: 350px;
+}
+
+
+.butons button{
+  height: 48px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bt1{
+  width:200px;
+  font-size: 17px;
+  font-weight: 600;
+  border-style: none;
+  
+}
+
+button span{
+  background: linear-gradient(to right, #ef87bd, #f43295);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bt2{
+  width: 150px;
+  font-size: 17px;
+  background-color: #2e2550;
+  border: 210px;
+  
+  color:white;
+}
