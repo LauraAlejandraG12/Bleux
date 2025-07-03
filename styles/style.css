@@ -52,16 +52,18 @@ nav button {
 
 
 .op {
-  background-color: rgba(46, 37, 80, 0.3);
+  background-color: rgba(0, 0, 0, 0.5); /* ajusta opacidad aquí */
 
 }
 
 .sec1 {
-  background-image: url('../assets/hojasFondo.jpg');
+  background-image: url('../assets/img/hojasFondo.jpg');
   width: 100%;
   height: 640px;
   background-size: cover;
   display: flex;
+  
+ 
 
 }
 
@@ -173,7 +175,7 @@ button span {
 }
 
 aside h3 {
-   background: linear-gradient(to right, #c55790, #d11978);
+  background: linear-gradient(to right, #c55790, #d11978);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
@@ -273,17 +275,16 @@ aside li {
   padding-top: 10px;
   margin-top: 15px;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;   /*margin bottom espacio arriba de la lista*/   
 
 }
 
 .arts li {
   list-style: none;
-  display: flex;
   align-items: center;
-  gap: 40px;
-  margin-left: 30px;
-
+  justify-content: flex-start;
+  text-align: center;
+  gap: 10px;
 }
 
 .art1 {
@@ -327,16 +328,48 @@ aside li {
   color: #1e172f;
   font-weight: 400;
   font-size: 40px;
+  margin-right: 0;
 
 }
 
+.arts h6 {
+  padding: 5px 0px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: -6px;
 
+}
 
 .precio p {
   color: #323033;
   margin-top: 10px
 }
 
+li img{
+  width:18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.imglog img{
+  width: 18px;
+  height: 18px;
+}
+
+.logitos{
+  display:flex;
+  justify-content: center;
+  gap: 30px;
+  padding-right: 50px;
+  
+}
+
+.imglog{
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 5px;
+}
 
 .arts ul {
   line-height: 30px;
@@ -388,8 +421,8 @@ i {
   font-size: 14px;
 }
 
-.art1 i{
-  color:#f43295;
+.art1 i {
+  color: #f43295;
 }
 
 
